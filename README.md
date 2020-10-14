@@ -13,6 +13,11 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 </ul>
 
 ## Executar ambiente de desenvolvimento
+Entrar na pasta web
+```zsh
+cd web
+```
+
 Utilizando o yarn
 ```zsh
 # Instalar dependencias
