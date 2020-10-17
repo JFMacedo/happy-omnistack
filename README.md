@@ -13,13 +13,28 @@ Esse projeto foi desenvolvido utilizando as seguintes tecnologias:
 </ul>
 
 ## Executar ambiente de desenvolvimento
-Entrar na pasta web
+Clonar o repositório
 ```zsh
-cd web
+git clone https://github.com/JFMacedo/happy-omnistack.git
 ```
 
-Utilizando o yarn
+Rodar o backend
 ```zsh
+#Entrar na pasta backend
+cd backend
+
+#Instalar as dependencias
+yarn add
+
+#Iniciar a aplicação
+yarn dev
+```
+
+Rodar o frontend
+```zsh
+#Entrar na pasta web
+cd web
+
 # Instalar dependencias
 yarn add
 
@@ -27,14 +42,18 @@ yarn add
 yarn start
 ```
 
-Utilizando o npm
+Rodar o aplicativo mobile
 ```zsh
+#Entrar na pasta web
+cd mobile
+
 # Instalar dependencias
-npm install
+yarn add
 
 # Iniciar
-npm run start
+yarn start
 ```
+
 Acessar `http://localhost:3000`.<br />
 
 ---
